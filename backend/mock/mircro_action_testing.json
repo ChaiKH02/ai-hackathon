@@ -1,0 +1,84 @@
+{
+  "department": "Marketing",
+  "quarter": "Q4",
+  "year": 2024,
+  "context": {
+    "department": "Marketing",
+    "quarter": "Q4",
+    "year": 2024,
+    "total_employees": 0,
+    "total_responses": 15,
+    "bad_sentiment_count": 10,
+    "bad_score_count": 15,
+    "burnout_risk_percentage": 0.0,
+    "turnover_risk_percentage": 6.67,
+    "avg_job_satisfaction": 4.133333333333334,
+    "avg_work_life_balance": 3.8666666666666667,
+    "avg_manager_support": 3.8666666666666667,
+    "avg_growth_opportunities": 3.933333333333333,
+    "avg_enps": 7.866666666666666,
+    "avg_sentiment": 5.333333333333333,
+    "avg_workload": null,
+    "common_bad_categories": [
+      "",
+      "flexibility benefits",
+      "productivity pressure",
+      "leisure time management",
+      "process inefficiency"
+    ],
+    "sample_bad_comments": [
+      "\"Provided that my salary is received on time.\"",
+      "",
+      "\"We need one last effort to improve our numbers.\"",
+      "\"I am hoping that 2025 will bring me better luck.\"",
+      ""
+    ]
+  },
+  "recommendations": {
+    "priority_actions": [
+      {
+        "action": "Flexible Work Arrangements",
+        "rationale": "Burnout Risk: 0.0% indicates a low risk of burnout, but employees' comments suggest they need more control over their work-life balance.",
+        "timeline": "Week 1-2"
+      },
+      {
+        "action": "Regular Salary Reviews",
+        "rationale": "Employees' comment on salary receipt highlights the importance of timely and regular compensation reviews to address financial concerns.",
+        "timeline": "Quarterly, starting from Q2 2024"
+      },
+      {
+        "action": "Process Efficiency Workshops",
+        "rationale": "Productivity pressure is a significant issue; workshops can help identify and address process inefficiencies, improving workloads and reducing stress.",
+        "timeline": "Bi-Monthly, starting from Week 3"
+      }
+    ],
+    "recommended_events": [
+      {
+        "event": "Wellness Challenge",
+        "description": "A team-based challenge to encourage physical activity, healthy eating, and mindfulness practices.",
+        "expected_impact": "Improved work-life balance and reduced burnout risk"
+      },
+      {
+        "event": "Productivity Hackathon",
+        "description": "A hands-on workshop to identify and implement productivity-enhancing tools and techniques.",
+        "expected_impact": "Reduced workload pressure and increased efficiency"
+      }
+    ],
+    "long_term_strategies": [
+      {
+        "strategy": "Regular Feedback Loops",
+        "implementation": "Establish a regular feedback mechanism (e.g., quarterly town halls) to ensure employees' concerns are heard and addressed."
+      },
+      {
+        "strategy": "Job Description Reviews",
+        "implementation": "Conduct regular reviews of job descriptions to ensure they accurately reflect the role's demands and provide clear expectations."
+      }
+    ],
+    "metrics_to_track": [
+      "Burnout Risk (%)",
+      "Turnover Rate (%/Q)",
+      "Work-Life Balance Self-Assessment (1-5 scale)"
+    ]
+  },
+  "generated_at": "2025-12-06T10:54:35.297115"
+}

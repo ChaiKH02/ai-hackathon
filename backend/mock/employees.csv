@@ -1,0 +1,51 @@
+Employee_ID,Name,Department,Role,Hire_Date,Is_Active
+EMP001,James Smith,IT,Manager,15/3/2021,TRUE
+EMP002,Maria Garcia,Sales,Manager,1/6/2019,TRUE
+EMP003,Robert Johnson,Marketing,Employee,10/1/2022,TRUE
+EMP004,Lisa Davis,HR,Employee,20/11/2016,TRUE
+EMP005,Michael Wilson,Finance,Employee,5/5/2023,TRUE
+EMP006,Jennifer Brown,Product,Manager,14/8/2014,TRUE
+EMP007,William Miller,Customer Support,Employee,28/2/2020,TRUE
+EMP008,Elizabeth Taylor,Marketing,Manager,12/9/2018,TRUE
+EMP009,David Anderson,HR,Manager,30/4/2012,TRUE
+EMP010,Susan Thomas,Finance,Manager,19/7/2021,TRUE
+EMP011,Richard Martinez,IT,Employee,22/3/2017,TRUE
+EMP012,Margaret Robinson,Sales,Employee,1/11/2023,TRUE
+EMP013,Joseph Hernandez,Marketing,Manager,5/10/2015,TRUE
+EMP014,Dorothy Clark,HR,Employee,15/1/2019,TRUE
+EMP015,Thomas Rodriguez,Finance,Employee,8/8/2022,TRUE
+EMP016,Nancy Lewis,Product,Employee,1/12/2020,TRUE
+EMP017,Charles Lee,Sales,Manager,18/5/2013,TRUE
+EMP018,Betty Walker,Customer Support,Manager,23/9/2021,TRUE
+EMP019,Christopher Hall,HR,Employee,14/2/2018,TRUE
+EMP020,Helen Allen,Finance,Employee,30/6/2016,FALSE
+EMP021,Daniel Young,IT,Manager,12/4/2022,TRUE
+EMP022,Sandra King,Sales,Employee,10/11/2009,TRUE
+EMP023,Paul Wright,Marketing,Employee,20/2/2023,TRUE
+EMP024,Donna Scott,HR,Employee,5/5/2020,TRUE
+EMP025,Mark Green,Finance,Manager,19/8/2017,TRUE
+EMP026,Carol Baker,Product,Manager,25/3/2019,TRUE
+EMP027,Donald Adams,Sales,Employee,10/10/2021,TRUE
+EMP028,Ruth Nelson,Customer Support,Manager,5/12/2022,TRUE
+EMP029,George Carter,HR,Manager,8/7/2015,TRUE
+EMP030,Sharon Mitchell,Finance,Employee,22/1/2018,FALSE
+EMP031,Kenneth Perez,IT,Employee,15/9/2023,TRUE
+EMP032,Michelle Roberts,Sales,Employee,12/6/2014,TRUE
+EMP033,Steven Turner,Marketing,Employee,1/4/2020,TRUE
+EMP034,Laura Phillips,HR,Employee,10/12/2016,TRUE
+EMP035,Edward Campbell,Finance,Employee,29/9/2019,TRUE
+EMP036,Sarah Parker,Product,Employee,15/3/2012,TRUE
+EMP037,Brian Evans,Sales,Employee,20/6/2022,TRUE
+EMP038,Kimberly Edwards,Marketing,Employee,28/2/2017,TRUE
+EMP039,Ronald Collins,Customer Support,Employee,15/8/2021,TRUE
+EMP040,Deborah Stewart,Finance,Employee,5/11/2013,TRUE
+EMP041,Anthony Sanchez,IT,Employee,19/5/2018,TRUE
+EMP042,Jessica Morris,Sales,Employee,25/1/2015,TRUE
+EMP043,Kevin Rogers,Marketing,Employee,10/10/2019,TRUE
+EMP044,Shirley Reed,HR,Employee,1/3/2023,TRUE
+EMP045,Jason Cook,Finance,Employee,11/11/2020,TRUE
+EMP046,Cynthia Morgan,Product,Employee,8/9/2016,TRUE
+EMP047,Matthew Bell,Sales,Employee,30/1/2022,TRUE
+EMP048,Brenda Murphy,Customer Support,Employee,20/7/2014,FALSE
+EMP049,Gary Bailey,HR,Employee,15/5/2021,TRUE
+EMP050,Amy Rivera,Finance,Employee,12/12/2017,TRUE
