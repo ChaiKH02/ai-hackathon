@@ -1,0 +1,101 @@
+Employee_ID,job_grade,position,birthdate,hire_date,gender,location,employee_level,division,union_membership
+MY001,P12,Chief Operating Officer,15/03/1975,10/01/2010,F,HQ,L1,Operations,0
+MY002,P12,Chief Digital Officer,22/07/1978,15/05/2015,M,HQ,L1,Digital,0
+MY003,P12,Chief People Officer,30/11/1980,01/09/2018,F,HQ,L1,HR,0
+MY004,P11,Head of Procurement,12/04/1976,20/03/2012,M,HQ,L2,Procurement,0
+MY005,P11,Head of Logistics,05/09/1979,11/11/2014,M,Selangor,L2,Operations,0
+MY006,P10,Senior IT Manager,18/01/1982,05/06/2016,M,HQ,L3,Digital,0
+MY007,P10,Regional Manager (North),25/12/1977,14/02/2009,F,Penang,L3,Operations,0
+MY008,P9,HR Business Partner,09/08/1985,22/07/2019,F,HQ,L4,HR,0
+MY009,P9,Finance Manager,14/06/1983,30/01/2017,M,HQ,L4,Finance,0
+MY010,P8,Digital Transformation Lead,02/03/1988,10/10/2020,F,HQ,L4,Digital,0
+MY011,P8,Operations Manager,29/05/1981,15/08/2013,M,Johor,L4,Operations,0
+MY012,P7,Senior IT Analyst,11/11/1989,01/04/2019,M,HQ,L5,Digital,0
+MY013,P7,Procurement Specialist,07/02/1986,19/09/2015,F,HQ,L5,Procurement,0
+MY014,P7,Area Supervisor,20/10/1984,05/05/2011,M,Sabah,L5,Operations,0
+MY015,P6,Marketing Executive,16/04/1992,12/01/2021,F,HQ,L6,Marketing,0
+MY016,P6,HR Executive,28/09/1991,23/06/2020,M,HQ,L6,HR,0
+MY017,P6,Team Lead (Delivery),03/12/1987,14/03/2016,M,Sarawak,L6,Operations,0
+MY018,P5,Junior IT Analyst,19/01/1995,01/09/2022,F,HQ,L7,Digital,0
+MY019,P5,Accounts Executive,24/07/1993,15/11/2021,M,HQ,L7,Finance,0
+MY020,P5,Branch Supervisor,08/05/1985,20/02/2014,M,Kelantan,L7,Operations,0
+MY021,P4,Senior Clerk,12/10/1980,10/05/2005,F,Selangor,L8,Admin,1
+MY022,P4,Logistics Coordinator,01/06/1988,18/08/2016,M,Penang,L8,Operations,1
+MY023,P4,Customer Service Lead,15/03/1990,22/10/2018,F,KL,L8,Operations,Non-union member (non-executives)
+MY024,P4,Technical Support,29/11/1994,05/01/2020,M,HQ,L8,Digital,1
+MY025,P3,Posmen,05/02/1985,14/04/2010,M,Selangor,L9,Operations,1
+MY026,P3,Posmen,18/09/1992,30/06/2017,M,KL,L9,Operations,1
+MY027,P3,Posmen,22/04/1996,12/09/2021,F,Johor,L9,Operations,1
+MY028,P3,Warehouse Assistant,07/08/1989,25/03/2015,M,Penang,L9,Operations,1
+MY029,P3,Admin Assistant,14/12/1993,10/07/2019,F,HQ,L9,Admin,Non-union member (non-executives)
+MY030,P3,Driver,30/01/1982,15/02/2008,M,Perak,L9,Operations,1
+MY031,P3,Posmen,09/06/1995,20/05/2020,M,Kedah,L9,Operations,1
+MY032,P3,Posmen,25/11/1990,01/08/2016,M,Melaka,L9,Operations,1
+MY033,P2,General Worker,17/03/1986,11/04/2013,M,Selangor,L10,Operations,1
+MY034,P2,Sorter,04/09/1997,19/10/2022,F,KL,L10,Operations,1
+MY035,P2,Sorter,21/05/1994,05/12/2019,M,KL,L10,Operations,1
+MY036,P2,Posmen,13/02/1988,28/06/2014,M,Pahang,L10,Operations,1
+MY037,P2,Posmen,06/10/1991,15/03/2018,M,Terengganu,L10,Operations,1
+MY038,P2,Dispatch Rider,27/07/1993,22/09/2019,M,KL,L10,Operations,1
+MY039,P2,Dispatch Rider,19/04/1996,10/01/2021,M,Selangor,L10,Operations,1
+MY040,P2,Clerk,02/12/1995,14/05/2020,F,Sabah,L10,Admin,Non-union member (non-executives)
+MY041,P1,Intern,10/08/2001,01/09/2023,F,HQ,L13,HR,Non-union member (non-executives)
+MY042,P1,Intern,25/02/2002,01/09/2023,M,HQ,L13,Digital,Non-union member (non-executives)
+MY043,P1,General Worker,14/06/1984,30/11/2009,M,Sarawak,L12,Operations,1
+MY044,P1,Cleaner,08/03/1975,18/02/2006,F,Selangor,L12,Operations,1
+MY045,P1,Cleaner,22/11/1978,25/07/2011,M,KL,L12,Operations,1
+MY046,P3,Posmen,05/05/1987,12/12/2012,M,Negeri Sembilan,L9,Operations,1
+MY047,P3,Posmen,19/09/1990,03/04/2016,M,Johor,L9,Operations,1
+MY048,P5,Facility Executive,30/01/1989,20/06/2018,M,HQ,L7,Operations,0
+MY049,P6,Safety Officer,11/07/1985,15/09/2014,F,HQ,L6,Operations,0
+MY050,P2,Sorter,26/03/1998,01/02/2023,M,Selangor,L10,Operations,1
+MY051,P3,Posmen,14/11/1992,10/08/2017,M,Perlis,L9,Operations,1
+MY052,P4,Data Entry Clerk,20/06/1993,05/11/2019,F,HQ,L8,Digital,1
+MY053,P7,Legal Counsel,02/09/1984,28/03/2015,F,HQ,L5,Legal,0
+MY054,P2,Driver,18/01/1980,14/07/2007,M,Penang,L10,Operations,1
+MY055,P2,Driver,09/05/1983,22/10/2010,M,Johor,L10,Operations,1
+MY056,P2,Posmen,25/12/1994,19/01/2021,M,Selangor,L10,Operations,1
+MY057,P2,Posmen,07/04/1991,30/05/2018,M,KL,L10,Operations,1
+MY058,P3,Counter Staff,15/08/1995,11/09/2020,F,Perak,L9,Operations,1
+MY059,P3,Counter Staff,03/02/1990,25/04/2016,F,Kelantan,L9,Operations,1
+MY060,P3,Counter Staff,28/10/1992,08/02/2019,M,Sabah,L9,Operations,1
+MY061,P4,Technician,12/06/1987,15/12/2013,M,HQ,L8,Operations,1
+MY062,P4,Technician,24/03/1991,01/06/2017,M,Penang,L8,Operations,1
+MY063,P1,Security Guard,05/09/1972,10/10/2005,M,HQ,L12,Operations,Non-union member (non-executives)
+MY064,P1,Security Guard,17/01/1976,22/03/2008,M,Selangor,L12,Operations,Non-union member (non-executives)
+MY065,P2,Posmen,30/05/1988,14/11/2014,M,Kedah,L10,Operations,1
+MY066,P5,Assistant Manager,11/02/1986,28/08/2015,F,Melaka,L7,Operations,0
+MY067,P3,Posmen,08/08/1993,05/01/2019,M,Terengganu,L9,Operations,1
+MY068,P2,Sorter,21/04/1997,18/06/2022,F,HQ,L10,Operations,1
+MY069,P8,Compliance Manager,14/12/1980,09/09/2011,M,HQ,L4,Legal,0
+MY070,P6,System Admin,03/06/1989,25/02/2016,M,HQ,L6,Digital,0
+MY071,P2,Despatch,29/10/1995,12/04/2021,M,KL,L10,Operations,1
+MY072,P3,Warehouse Assistant,16/07/1990,30/08/2017,M,Johor,L9,Operations,1
+MY073,P3,Warehouse Assistant,05/01/1994,15/05/2020,M,Selangor,L9,Operations,1
+MY074,P4,Payroll Officer,23/03/1985,01/10/2012,F,HQ,L8,HR,Non-union member (non-executives)
+MY075,P3,Posmen,19/08/1991,20/12/2016,M,Pahang,L9,Operations,1
+MY076,P2,Posmen,07/02/1996,14/07/2022,M,Sarawak,L10,Operations,1
+MY077,P2,Posmen,11/05/1993,22/11/2019,M,Sabah,L10,Operations,1
+MY078,P3,Admin Assistant,26/09/1988,05/03/2015,F,Penang,L9,Admin,Non-union member (non-executives)
+MY079,P5,Shift Lead,02/12/1984,18/09/2010,M,HQ,L7,Operations,0
+MY080,P1,General Worker,13/04/1979,25/06/2007,M,Perak,L12,Operations,1
+MY081,P3,Customer Service Agent,28/01/1992,10/10/2018,F,HQ,L9,Operations,1
+MY082,P3,Customer Service Agent,15/06/1995,01/02/2021,M,HQ,L9,Operations,1
+MY083,P4,Fleet Supervisor,09/03/1983,12/08/2009,M,Selangor,L8,Operations,Non-union member (non-executives)
+MY084,P3,Posmen,24/07/1990,28/05/2016,M,KL,L9,Operations,1
+MY085,P2,Sorter,10/10/1998,15/11/2023,F,Johor,L10,Operations,1
+MY086,P3,Posmen,06/02/1994,03/04/2020,M,Kedah,L9,Operations,1
+MY087,P7,Business Analyst,18/05/1988,20/01/2017,F,HQ,L5,Digital,0
+MY088,P3,Posmen,25/08/1991,14/06/2018,M,Melaka,L9,Operations,1
+MY089,P2,Driver,12/11/1985,09/09/2012,M,Negeri Sembilan,L10,Operations,1
+MY090,P3,Storekeeper,01/01/1982,25/03/2008,M,Penang,L9,Operations,1
+MY091,P4,Purchasing Assistant,19/04/1987,11/11/2013,F,HQ,L8,Procurement,Non-union member (non-executives)
+MY092,P3,Posmen,05/09/1995,30/07/2021,M,Selangor,L9,Operations,1
+MY093,P2,Posmen,22/02/1993,15/04/2019,M,Perlis,L10,Operations,1
+MY094,P5,Recruiter,14/06/1990,23/02/2020,F,HQ,L7,HR,0
+MY095,P3,Posmen,28/12/1992,05/10/2017,M,KL,L9,Operations,1
+MY096,P3,Posmen,09/03/1996,18/08/2022,M,Putrajaya,L9,Operations,1
+MY097,P2,Sorter,16/07/1999,01/12/2023,M,Selangor,L10,Operations,1
+MY098,P6,Digital Marketing Exec,03/05/1994,20/05/2021,F,HQ,L6,Digital,0
+MY099,P3,Posmen,27/08/1989,12/01/2015,M,Pahang,L9,Operations,1
+MY100,P3,Dispatch Rider,11/11/1991,04/09/2016,M,Johor,L9,Operations,1

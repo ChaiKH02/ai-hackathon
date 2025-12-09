@@ -1,0 +1,155 @@
+# API Documentation - Employee Wellbeing Analysis
+Base URL: `http://localhost:8000/api/v1`
+
+This API provides endpoints for analyzing employee survey data, generating AI-powered recommendations, and tracking implementation actions.
+
+---
+
+## 1. Metrics & Analysis
+**Base Path**: `/metrics`
+
+### `GET /metrics/`
+Retrieves analyzed survey metrics. Can be filtered by department and quarter.
+
+**Query Parameters:**
+- `department` (optional): Filter data by department name (e.g., "HR", "Engineering").
+- `quarter` (optional): Filter data by quarter (e.g., "Q1", "Q3").
+
+**Response (JSON List):**
+```json
+[
+  {
+    "Department": "HR",
+    "Quarter": "Q1",
+    "burnout_risk_percentage": 15.5,
+    "turnover_risk_percentage": 10.2,
+    "avg_job_satisfaction": 4.5,
+    "top_pain_points": ["Workload", "Salary"],
+    ...
+  }
+]
+```
+
+---
+
+## 2. Actions Log (Implementation Tracking)
+**Base Path**: `/actions_log`
+
+### `POST /actions_log/add`
+Saves a new recommendation activity or strategy to be tracked. It also takes a snapshot of the current risk metrics to measure impact later.
+
+**Request Body (JSON):**
+```json
+{
+  "department": "Engineering",
+  "quarter": "Q1",
+  "year": 2024,
+  "activity_type": "actions",  // Options: "events", "actions", "long_term"
+  "description": "Implement 'No-Meeting Fridays' to reduce deep work interruptions.",
+  "impact": "High",            // Optional
+  "activity_status": "pending", // Default: "pending"
+  "assigned_to": "John Doe",  // Optional
+  "context": {
+    "burnout_risk_percentage": 25.0,
+    "turnover_risk_percentage": 12.0
+  }
+}
+```
+
+**Response:**
+```json
+{
+  "status": "success",
+  "Action_ID": "action_Engineering_Q1_uuid..."
+}
+```
+
+### `PUT /actions_log/update/{action_id}`
+Updates the status of an existing action.
+**key Feature**: When `Activity_status` is set to `"completed"`, the system automatically calculates the impact by comparing the baseline risks (saved at creation) vs. the current risks.
+
+**Request Body (JSON):**
+```json
+{
+  "Activity_status": "completed" // Options: "pending", "on-going", "completed", "cancelled"
+}
+```
+
+**Response:**
+```json
+{
+  "status": "success",
+  "action_id": "...",
+  "updated_fields": {
+    "Activity_status": "completed",
+    "Completed_at": "2024-03-20T...",
+    "Impact_Burnout": -5.0,  // Negative means risk went down (Good!)
+    "Impact_Turnover": -2.0
+  }
+}
+```
+
+---
+
+## 3. Uploads
+**Base Path**: `/upload`
+
+### `POST /upload/csv`
+Uploads a raw survey CSV file.
+- Automatically processes text (NLP analysis like sentiment & categorization).
+- Classifies submission dates into quarters & event seasons.
+- Saves all processed records to DynamoDB.
+
+**Request:** `multipart/form-data`
+- `file`: The CSV file.
+
+**Response:**
+```json
+{
+  "status": "success",
+  "total_rows_processed": 50,
+  "total_rows_saved_to_db": 50,
+  "statistics": { ... },
+  "sample_data_from_database": [ ... ]
+}
+```
+
+---
+
+## 4. Recommendations (AI Agent)
+**Base Path**: `/recommendations`
+
+### `POST /recommendations/generate`
+Generates text-based recommendations using the Llama 3.2 model based on department data.
+
+**Request Body (JSON):**
+```json
+{
+  "department": "Sales",
+  "quarter": "Q2",     // Optional
+  "year": 2024,        // Optional
+  "focus_areas": ["burnout", "manager_support"] // Optional
+}
+```
+
+### `GET /recommendations/risk-summary/{department}`
+Returns a structured summary of risks for a department. Useful for frontend dashboards.
+
+**Query Parameters:** `quarter`, `year`
+
+**Response:**
+```json
+{
+  "department": "Sales",
+  "burnout_risk": 30.5,
+  "turnover_risk": 20.0,
+  "common_themes": ["Micromanagement", "Unclear Goals"],
+  ...
+}
+```
+
+### `GET /recommendations/context/{department}`
+Retrieves the raw "enriched context" (Employee data + Workload + Survey Sentiment) that is fed into the AI model. Useful for debugging what the AI "sees".
+
+### `GET /recommendations/health`
+Simple health check for the recommendation engine/LLM connection.

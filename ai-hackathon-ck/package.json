@@ -1,0 +1,20 @@
+{
+  "name": "ai-hackathon",
+  "version": "1.0.0",
+  "description": "2-week Sprint Break Into AI: Hack to Hire | Malaysia 2025",
+  "homepage": "https://github.com/azrylshamin/ai-hackathon#readme",
+  "bugs": {
+    "url": "https://github.com/azrylshamin/ai-hackathon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azrylshamin/ai-hackathon.git"
+  },
+  "license": "ISC",
+  "author": "Azryl Shamin",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
